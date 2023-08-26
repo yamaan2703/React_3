@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container{
+  border: 1px solid gray;
+  height: 700px; 
+  background-color: lightseagreen;
+}
+.main_react{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  align-items: center;
+  margin: 20px;
+
+}
+/* Input Page */
+.inp_section{
+  margin-right: 200px;
+}
+.inp_section input{
+   border: 1px solid whitesmoke;
+   width: 200%;
+   background: transparent;
+   display: block;
+   padding: 5px;
+   color: white;
+   height: 45px;
+   outline: none;
+}
+.inp_section input::placeholder {
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+/* Button Page */
+.btn_Section{
+  margin: 0px 10px;
+}
+.btn_Section button{
+  color: white;
+  border: 1px solid white;
+  padding: 9px;
+  width: 150%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 1px;
+  display: block;
+}
+.btn_Section button:hover{
+   color: lightseagreen;
+   background-color: white;
+   transition: 1s;
+}
+/* Select Page  */
+.select_section select{
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  outline: none;
+  padding: 9px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 1px;
+}
+.select_section select option{
+  width: 300%;
+  background-color: lightseagreen;
+}
+
+/* Table Section */
+.table_section table{
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin: 25px;
+  display: inline-block;
+}
+.table_section table tr{
+  margin: 50px 50px;
+}
+.table_section table th{
+  padding: 15px 25px;
+}
+.table_section table td{
+  padding: 2px 25px;
+}
+
+/* Card Section */
+.card_Seaction{
+ border: 1px solid white;
+ display: inline-block;
+ padding: 25px;
+ margin: 0px 20px;
+ width: 30%;
+}
+.card_Seaction p{
+  color: white;
+  padding: 5px 0px;
+}
+/* React 2 */
+.main_react_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
